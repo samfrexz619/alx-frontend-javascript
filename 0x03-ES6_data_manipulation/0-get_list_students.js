@@ -1,4 +1,4 @@
-const arrObjs = [
+export const arrObjs = [
   {
     id: 1,
     firstName: 'Guillaume',
@@ -10,7 +10,7 @@ const arrObjs = [
     location: 'Columbia',
   },
   {
-    id: 3,
+    id: 5,
     firstName: 'Serena',
     location: 'San Francisco',
   },
