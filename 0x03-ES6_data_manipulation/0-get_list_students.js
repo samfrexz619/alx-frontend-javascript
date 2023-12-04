@@ -1,4 +1,4 @@
-export const arrObjs = [
+const arrObjs = [
   {
     id: 1,
     firstName: 'Guillaume',
