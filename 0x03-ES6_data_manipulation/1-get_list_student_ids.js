@@ -1,6 +1,6 @@
 const getListStudentIds = (arrs) => {
   const arrIds = [];
-  const res = Array.isArray(arrs)
+  const res = arrs instanceof Array
     ? arrs.map((arr) => arrIds.push(arr.id))
     : arrIds;
   return res;
